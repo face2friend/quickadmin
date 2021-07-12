@@ -2,6 +2,24 @@
   "name": "face2friend/quickadmin",
   "description": "Package for creating adminpanel in Laravel 5",
   "license": "MIT",
+  "repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "face2friend/quickadmin",
+          "version":"master",
+          "source": {
+              "url": "https://github.com/face2friend/quickadmin.git",
+              "type": "git",
+              "reference":"master"
+            }
+        }
+    }
+],
+"require": {
+    "l3pp4rd/doctrine-extensions": "master"
+},
+
   "authors": [
     {
       "name": "Parminder",
